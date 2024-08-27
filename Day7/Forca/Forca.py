@@ -30,7 +30,7 @@ while not game_over:
 
         if l == letra_escolhida:
             display += l
-            letras_display.append(letra_escolhida)
+            letras_display.append(l)
         elif l in letras_display:
             display += l   
         else:
