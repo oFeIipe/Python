@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c627efa1-fdc2-4774-81c6-d5544b42be75" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Day12/Advinha.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day12/AdvinharNumeros/AdvinharNumeros.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day12/AdvinharNumeros/Projeto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day12/AdvinharNumeros/logo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day12/Primo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day13/Debugger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day13/maths.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day14/ProjetoHigherLower.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day14/ProjetoHigherLower1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day14/dados.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day14/img.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day15/Cafeteria.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day15/Coffee.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day18 projeto/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day18/circulos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day18/cores.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day18/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day19/A-Sketch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day19/Corrida.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day19/lousa.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day24/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jogo_da_cobrinha/comida.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jogo_da_cobrinha/pontuacao.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../turtleCrossing/carro.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../turtleCrossing/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../turtleCrossing/pontuacao.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../turtleCrossing/tartaruga.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day11/21.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day9/dicionario.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Day9/dicionario.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "oFeIipe"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/oFeIipe/Python-Curso.git",
+    "accountId": "951dbf93-066a-4dff-b91e-b4268ecfa155"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2nWcuk1wR0rNAr2Axenmb5TJjXq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/PC/OneDrive/Área de Trabalho/Felipe Estacio/Filosofo python/Python Curso/Mail Merge Project Start"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-abccbe9d933a-ba05f1cad1b1-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.20224.428" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c627efa1-fdc2-4774-81c6-d5544b42be75" name="Changes" comment="" />
+      <created>1729092496746</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729092496746</updated>
+    </task>
+    <servers />
+  </component>
+</project>

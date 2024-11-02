@@ -12,7 +12,7 @@ dicionario = {
 
 dicionario_vazio = {}
 
-dicionario = {} #Esvazia um dicionário
+ #Esvazia um dicionário
 
 #dicionario["Reginaldo"] = "Oba, lanche!"
 
