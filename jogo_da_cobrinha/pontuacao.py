@@ -5,7 +5,7 @@ class Pontuacao(Turtle):
         super().__init__()
         self.hideturtle()
         self.score = 0
-        with open('maior_pontuacão.txt', 'r') as f:
+        with open('jogo_da_cobrinha\maior_pontuacão.txt', 'r') as f:
             self.high_score = int(f.read())
         self.pencolor("white")
         self.penup()

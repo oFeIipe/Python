@@ -25,12 +25,7 @@ while jogo_rodando:
 
     try:
         if pergunta == "Sair":
-            data_frame = {
-                "Estados Para Aprender": []
-            }
-            for state in df.state:
-                if state not in respostas_certas:
-                    data_frame["Estados Para Aprender"].append(state)
+            data_frame = [state for state in df.state if state not in respostas_certas]
             aprender = pandas.DataFrame(data_frame)
             aprender.to_csv("estados_para_aprender.csv")
             break
