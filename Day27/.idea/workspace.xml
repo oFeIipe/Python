@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d59a9229-bd35-4257-a5fb-592769ba2b3e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Day27.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/args.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conversor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day29/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Day29/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +20,20 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "oFeIipe"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/oFeIipe/Python-Curso.git",
+    "accountId": "951dbf93-066a-4dff-b91e-b4268ecfa155"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -48,8 +50,8 @@
     "Python.main.executor": "Run",
     "Python.main2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/PC/OneDrive/Área de Trabalho/Felipe Estacio/Filosofo python/Python Curso/Day29",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/PC/OneDrive/Área de Trabalho/Felipe Estacio/Filosofo python/Python Curso",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -81,6 +83,7 @@
       <workItem from="1732492126034" duration="676000" />
       <workItem from="1732502157270" duration="1198000" />
       <workItem from="1732647104282" duration="653000" />
+      <workItem from="1732649973936" duration="737000" />
     </task>
     <servers />
   </component>

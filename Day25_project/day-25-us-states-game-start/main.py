@@ -1,4 +1,3 @@
-from tokenize import cookie_re
 from turtle import Turtle, Screen
 import pandas
 tela = Screen()
@@ -31,7 +30,6 @@ while jogo_rodando:
             break
         correcao = df[df.state == pergunta]
         indice = df[df.state == pergunta].index[0]
-
 
         texto.goto(correcao.x[indice], correcao.y[indice])
         texto.write(f"{pergunta}")
