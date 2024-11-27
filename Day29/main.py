@@ -1,9 +1,26 @@
 from tkinter import *
 from tkinter import messagebox
-import pandas as pd
+import json
 from random import randint, choice, shuffle
 from simbolos import *
 import pyperclip
+
+def search_website():
+    site_data = site_input.get().lower()
+
+    if site_data:
+
+            try:
+                with open("data.json", "r") as data_file:
+                    data = json.load(data_file)
+                    email = data[site_data]['email']
+                    senha = data[site_data]['senha']
+            except FileNotFoundError:
+                messagebox.showerror(title="Erro", message="Arquivo não encontrado")
+            except KeyError:
+                messagebox.showerror(title=site_data, message="Esse site não foi cadastrado")
+            else:
+                messagebox.showinfo(title=site_data, message=f"Email: {email}\nSenha: {senha}")
 
 def gerador_senhas():
     password_input.delete(0, END)
@@ -20,11 +37,16 @@ def gerador_senhas():
 
 
 def save_informations():
-    site_data = site_input.get()
+    site_data = site_input.get().lower()
     username_data = username_input.get()
     password_data = password_input.get()
 
-    df = pd.read_csv("dados.csv")
+    new_data = {
+        site_data: {
+            "email": username_data,
+            "senha": password_data,
+        }
+    }
 
     if not site_data or not username_data or not password_data:
         messagebox.showerror(title="Inválido", message="Campo(s) vazio(s)")
@@ -34,24 +56,22 @@ def save_informations():
                                                     f"Email: {username_data}\n"
                                                     f"Senha: {password_data}")
     if is_ok:
-        dataframe = {
-            "site": [site_data],
-            "username": [username_data],
-            "password": [password_data]
-        }
-        nova_senha = pd.DataFrame(dataframe)
+        try:
+            with open("data.json", "r") as data_file:
+                d = json.load(data_file)
+        except FileNotFoundError:
+            with open("data.json", "w") as data_file:
+                json.dump(new_data, data_file, indent=4)
+                messagebox.showinfo(title="Aviso", message="Dados salvos com sucesso!")
+        else:
+            with open("data.json", "w") as data_file:
+                d.update(new_data)
+                json.dump(d, data_file, indent=4)
+                messagebox.showinfo(title="Aviso", message="Dados salvos com sucesso!")
+        finally:
 
-        new = pd.concat([df, nova_senha])
-        new.to_csv("dados.csv", index=False)
-
-        messagebox.showinfo(title="Aviso", message="Dados salvos com sucesso!")
-
-        site_input.delete(0, END)
-        password_input.delete(0, END)
-
-    #with open("data.txt", "a") as file:
-    #    file.write(f"{site_data} | {username_data} | {password_data}\n")
-
+            site_input.delete(0, END)
+            password_input.delete(0, END)
 
 
 tela = Tk()
@@ -71,8 +91,8 @@ password_label = Label(text="Senha:")
 password_label.grid(column=0, row=3)
 
 #Input
-site_input = Entry(width=50)
-site_input.grid(column= 1, row=1, columnspan=2)
+site_input = Entry(width=36)
+site_input.grid(column= 1, row=1)
 site_input.focus()
 username_input = Entry(width=50)
 username_input.grid(column= 1, row=2, columnspan=2)
@@ -85,5 +105,6 @@ gen_pas_btn = Button(text="Gerar Senha", command=gerador_senhas)
 gen_pas_btn.grid(column=2, row=3, sticky=EW)
 add_btn = Button(text="Adicionar", width=42, command=save_informations)
 add_btn.grid(column=1, row=4, columnspan=2)
-
+search_btn = Button(text="Procurar", command=search_website)
+search_btn.grid(column=2, row=1, sticky=EW)
 tela.mainloop()
